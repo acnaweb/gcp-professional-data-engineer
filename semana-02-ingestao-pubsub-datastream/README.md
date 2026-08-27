@@ -1,10 +1,41 @@
-# Semana 2 — Ingestao Pubsub Datastream
+# Semana 2 — Ingestão, Pub/Sub, Streaming e Datastream
 
-- [Aula 01 Pubsub Fundamentos](./aula-01-pubsub-fundamentos.md)
-- [Aula 02 Streaming Patterns](./aula-02-streaming-patterns.md)
-- [Aula 03 Datastream Cdc](./aula-03-datastream-cdc.md)
-- [Aula 04 Transfer Services](./aula-04-transfer-services.md)
-- [Aula 05 Lab Pubsub Bigquery](./aula-05-lab-pubsub-bigquery.md)
+## Padrão prático obrigatório
 
-## Objetivo
-Concluir todas as aulas, executar os labs e revisar o checklist antes de avançar.
+```text
+Conceito
+   ↓
+Criar
+   ↓
+Inspecionar
+   ↓
+Testar
+   ↓
+Quebrar propositalmente
+   ↓
+Troubleshooting
+   ↓
+Corrigir
+   ↓
+Questões estilo prova
+   ↓
+Cleanup
+```
+
+## Case contínuo
+A semana evolui a plataforma **RetailPulse** e reaproveita padrões e decisões das semanas anteriores.
+
+## Aulas
+- [Aula 1 — Pub/Sub: Fundamentos](./aula-01-pubsub-fundamentos.md)
+- [Aula 2 — Padrões de Streaming](./aula-02-streaming-patterns.md)
+- [Aula 3 — Datastream e CDC](./aula-03-datastream-cdc.md)
+- [Aula 4 — Transferência de Dados](./aula-04-transfer-services.md)
+- [Aula 5 — Pub/Sub para Analytics](./aula-05-lab-pubsub-bigquery.md)
+
+## Para avançar
+- [ ] Executei os labs viáveis.
+- [ ] Inspecionei recursos.
+- [ ] Provoquei falhas.
+- [ ] Fiz troubleshooting causal.
+- [ ] Sei justificar trade-offs.
+- [ ] Revisei cleanup.

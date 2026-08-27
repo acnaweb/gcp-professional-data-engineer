@@ -1,10 +1,41 @@
-# Semana 3 — Dataflow Dataproc Processamento
+# Semana 3 — Dataflow, Beam, Dataproc e Processamento
 
-- [Aula 01 Dataflow Beam](./aula-01-dataflow-beam.md)
-- [Aula 02 Dataflow Streaming](./aula-02-dataflow-streaming.md)
-- [Aula 03 Dataproc Spark](./aula-03-dataproc-spark.md)
-- [Aula 04 Bigquery Transformacoes](./aula-04-bigquery-transformacoes.md)
-- [Aula 05 Lab Dataflow Template](./aula-05-lab-dataflow-template.md)
+## Padrão prático obrigatório
 
-## Objetivo
-Concluir todas as aulas, executar os labs e revisar o checklist antes de avançar.
+```text
+Conceito
+   ↓
+Criar
+   ↓
+Inspecionar
+   ↓
+Testar
+   ↓
+Quebrar propositalmente
+   ↓
+Troubleshooting
+   ↓
+Corrigir
+   ↓
+Questões estilo prova
+   ↓
+Cleanup
+```
+
+## Case contínuo
+A semana evolui a plataforma **RetailPulse** e reaproveita padrões e decisões das semanas anteriores.
+
+## Aulas
+- [Aula 1 — Dataflow e Apache Beam](./aula-01-dataflow-beam.md)
+- [Aula 2 — Dataflow Streaming](./aula-02-dataflow-streaming.md)
+- [Aula 3 — Dataproc e Spark](./aula-03-dataproc-spark.md)
+- [Aula 4 — Transformações no BigQuery](./aula-04-bigquery-transformacoes.md)
+- [Aula 5 — Dataflow Template e Operação](./aula-05-lab-dataflow-template.md)
+
+## Para avançar
+- [ ] Executei os labs viáveis.
+- [ ] Inspecionei recursos.
+- [ ] Provoquei falhas.
+- [ ] Fiz troubleshooting causal.
+- [ ] Sei justificar trade-offs.
+- [ ] Revisei cleanup.

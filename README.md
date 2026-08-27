@@ -1,84 +1,48 @@
-# Google Cloud Professional Data Engineer — Plano de Preparação
+# Google Cloud Professional Data Engineer — Roadmap Prático
 
-Repositório de preparação para a certificação **Google Cloud Professional Data Engineer (PDE)**.
+Roadmap de **8 semanas** para a certificação Google Cloud Professional Data Engineer, refeito no mesmo padrão operacional adotado no material do Associate Cloud Engineer.
+
+## Estrutura obrigatória de todas as aulas
+
+```text
+Conceito
+   ↓
+Criar
+   ↓
+Inspecionar
+   ↓
+Testar
+   ↓
+Quebrar propositalmente
+   ↓
+Troubleshooting
+   ↓
+Corrigir
+   ↓
+Questões estilo prova
+   ↓
+Cleanup
+```
+
+## Case contínuo — RetailPulse
+Um e-commerce fictício evolui de ingestão batch para streaming, CDC, BigQuery, Dataflow, Dataproc, Dataform, Dataplex, orquestração, governança, qualidade, ML/serving e operação.
+
+## Semanas
+1. [Fundamentos, Arquitetura e Modelagem](./semana-01-fundamentos-arquitetura-dados/README.md)
+2. [Ingestão, Pub/Sub, Streaming e Datastream](./semana-02-ingestao-pubsub-datastream/README.md)
+3. [Dataflow, Beam, Dataproc e Processamento](./semana-03-dataflow-dataproc-processamento/README.md)
+4. [BigQuery, Storage, Performance e Analytics](./semana-04-bigquery-storage-analytics/README.md)
+5. [Dataplex, Dataform, Data Quality e Lineage](./semana-05-governanca-dataplex-dataform-quality/README.md)
+6. [Orquestração, Operação e Segurança](./semana-06-orquestracao-operacao-seguranca/README.md)
+7. [ML, Serving e Cenários Integrados](./semana-07-ml-analytics-avancado-cenarios/README.md)
+8. [Revisão, Simulados e Estratégia](./semana-08-revisao-simulados-estrategia/README.md)
+
+## Serviços e temas centrais
+Pub/Sub, Dataflow/Beam, Datastream/CDC, Dataproc/Spark, BigQuery, Cloud Storage, Dataform, Dataplex, Composer/Airflow, Workflows, IAM, VPC Service Controls, CMEK, quality, lineage, freshness, backlog, performance, slots/custo, BigQuery ML e integração com Vertex AI.
 
 ## Formato atual do exame
+Na revisão de agosto de 2026, o exame padrão tem **2 horas, 40–50 questões, múltipla escolha e múltipla seleção**. Confirme a página oficial antes de agendar.
 
-- Duração: 2 horas
-- Questões: 40–50
-- Formato: múltipla escolha e múltipla seleção
-- Idiomas: inglês e japonês
-- Taxa: US$ 200 + impostos aplicáveis
-- Pré-requisitos: nenhum
-- Experiência recomendada: 3+ anos no setor, incluindo 1+ ano projetando e gerenciando soluções no Google Cloud
+## Princípio central
 
-## Domínios
-
-1. Design data processing systems
-2. Ingest and process data
-3. Store data
-4. Prepare and use data for analysis
-5. Maintain and automate data workloads
-
-## Roadmap de 8 semanas
-
-| Semana | Tema |
-|---|---|
-| 1 | Fundamentos, arquitetura, modelagem, segurança e resiliência |
-| 2 | Ingestão: Pub/Sub, streaming, Datastream e transferências |
-| 3 | Processamento: Dataflow, Beam, Dataproc e ELT |
-| 4 | BigQuery, storage, performance, sharing e ingestão |
-| 5 | Governança: Dataplex, Dataform, data quality e lineage |
-| 6 | Orquestração, operação, monitoring, segurança e automação |
-| 7 | BigQuery ML, Vertex AI, serving e cenários integrados |
-| 8 | Revisão, simulados, estratégia e checklist final |
-
-## Estrutura
-
-```text
-gcp-professional-data-engineer/
-├── README.md
-├── semana-01-fundamentos-arquitetura-dados/
-├── semana-02-ingestao-pubsub-datastream/
-├── semana-03-dataflow-dataproc-processamento/
-├── semana-04-bigquery-storage-analytics/
-├── semana-05-governanca-dataplex-dataform-quality/
-├── semana-06-orquestracao-operacao-seguranca/
-├── semana-07-ml-analytics-avancado-cenarios/
-└── semana-08-revisao-simulados-estrategia/
-```
-
-## Ritmo sugerido
-
-```text
-20 min teoria
-30 min lab
-10 min revisão
-5–6 dias/semana
-```
-
-## Regras de ouro
-
-```text
-Streaming complexo → Pub/Sub + Dataflow
-Spark/Hadoop legado → Dataproc
-CDC relacional → Datastream
-Analytics SQL → BigQuery
-ELT SQL versionado → Dataform
-Governança/metadata → Dataplex
-Orquestração Airflow → Composer
-Wide-column baixa latência → Bigtable
-SQL operacional distribuído → Spanner
-```
-
-## Critério de prontidão
-
-```text
-≥ 80% nos simulados
-+
-labs executados
-+
-erros compreendidos
-+
-capacidade de justificar arquitetura
-```
+> **Dê prioridade a cenários de decisão arquitetural e trade-offs, pois a prova Professional Data Engineer cobra mais “qual serviço/padrão escolher e por quê” do que simples memorização de comandos.**
